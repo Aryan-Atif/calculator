@@ -1,0 +1,138 @@
+body
+{
+  font-family: "Jetbrains Mono","Courier New", Courier, monospace; 
+  background-color: #191a1a;
+  color:	#859d93;
+}
+.container
+{
+  display:flex;
+  justify-content: center;
+}
+.calculator 
+{
+  background-color:	#041a0c;
+  width: 30vw;
+  height: 45vw;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+.display_result
+{
+  height: 15vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly
+}
+.expression_entered
+{
+  color: #137c13;
+  font-size: 20px;
+}
+.result
+{
+  color: #22fc26;
+  font-size: 50px;
+  font-weight: 800px;
+  align-self: flex-end;
+}
+
+.buttons
+{
+  height: 50%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+button
+{
+  font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace;
+  font-size: 26px;
+
+  width: 5vw;
+  height: 3vw;
+  margin: 3px;
+  border: none;
+  background-color: #0b2317;
+  color: #38cc78;
+}
+button:hover
+{
+  background-color: #1b5a3b;
+  color: #bbe8ce;
+}
+
+.first_row, .second_row, .third_row, .fourth_row, .fifth_row
+{
+  display: flex;
+  justify-content: space-between;
+
+}
+.second_row, .third_row, .fourth_row
+{
+  justify-content: space-between;
+}
+
+.first_column
+{
+  font-weight: 400;
+  width: 60%;
+  padding: 5px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.second_column
+{
+  font-weight: 600;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first_row
+{
+  display:flex;
+}
+#bth_ce
+{
+  flex-shrink: 1;
+}
+#btn_clear
+{
+  max-width: 11.2vw;
+  background-color: #38cc78;
+  color:  #0b2317;
+  flex-grow: 2;
+}
+#btn_clear:hover
+{
+  background-color: #258e57;
+  color:  black;
+}
+
+#bth_.
+{
+  flex-shrink: 1;
+}
+#btn_0
+{
+  max-width: 11.2vw;
+  flex-grow: 2;
+}
+#btn_equals
+{
+  background-color: #922411;
+  color: #f5870a;
+}
+#btn_equals:hover
+{
+  background-color: #491309;
+  color: #cf5b02;
+}
